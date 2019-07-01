@@ -1,0 +1,235 @@
+#galleryHeader {
+  height: 70px;
+  width: 100vw;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(82, 82, 82),
+    rgb(90, 90, 90),
+    rgb(82, 82, 82),
+    rgb(71, 71, 71),
+    rgb(71, 71, 71)
+  );
+  position: fixed;
+  top: 140px;
+  z-index: 3;
+}
+.buttons {
+  margin-left: 200px;
+}
+.selectedButton {
+  margin: 0 5px 0 5px;
+  color: white;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(65, 65, 65),
+    rgb(72, 72, 72),
+    rgb(62, 62, 62),
+    rgb(50, 50, 50),
+    rgb(40, 40, 40)
+  );
+  width: 100px;
+  height: 70px;
+  box-shadow: 10px 10px 10px -10px black inset;
+  border: none;
+}
+.button {
+  margin: 0 5px 0 5px;
+  color: white;
+  background-color: transparent;
+  // background-color: rgb(82, 82, 82);
+  width: 100px;
+  height: 70px;
+  border: none;
+}
+.button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(75, 75, 75),
+    rgb(82, 82, 82),
+    rgb(72, 72, 72),
+    rgb(60, 60, 60),
+    rgb(50, 50, 50)
+  );
+  box-shadow: 10px 10px 5px -10px black inset;
+  .selectedButton {
+    box-shadow: none;
+    background-color: green;
+  }
+}
+.button:active {
+  outline: none;
+}
+
+.title1 {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  text-shadow: 0px 0px 8px black;
+  margin: 20px 0px 0px 20px;
+  font-size: 28px;
+  font-weight: bolder;
+}
+#wrapper3 {
+  margin-top: 320px;
+  z-index: 2;
+}
+
+.galleryPictures {
+  display: flex;
+}
+.gallerySideScroll .gallery-viewport {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 250px;
+  width: 100vw;
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.6);
+  overflow-y: hidden;
+}
+
+.gallerySideScroll .gallery-viewport .cdk-virtual-scroll-content-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.gallerySideScroll .gallery-item {
+  height: 100%;
+  writing-mode: horizontal-tb;
+}
+
+#picture01-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture02-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: inline-block;
+}
+#picture03-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture04-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture05-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture06-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+}
+#picture07-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture07.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+#picture08-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture09-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture09.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+#picture10-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture10.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 50%;
+}
+#picture11-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture11.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture12-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture12.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 80% 50%;
+}
+#picture13-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture13.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 17% 50%;
+}
+#picture14-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture14.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+#picture15-g {
+  width: 200px;
+  height: 500px;
+  background-image: url(../../pictures/picture15.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 30% 50%;
+}
+.surpriseButton {
+  // background-color: rgba(0, 128, 0, 0.404);
+  height: 30px;
+  width: 50px;
+  margin: 190px 0 0 82px;
+}
+.surpriseButton:hover {
+  cursor: default;
+  background: none;
+}
+@media (max-width: 700px) {
+  .buttons {
+    margin-left: 0;
+  }
+}

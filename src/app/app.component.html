@@ -4,47 +4,21 @@
       <div class="logo">KV</div>
       <div class="title">KRYCINEMA VISUALS</div>
     </div>
-
-    <button mat-button [matMenuTriggerFor]="menu">Menu</button>
+    <button mat-button [matMenuTriggerFor]="menu" class="dropdown">
+      MENU
+    </button>
     <mat-menu #menu="matMenu">
-      <button mat-menu-item>Item 1</button>
-      <button mat-menu-item>Item 2</button>
+      <button [routerLink]="['/home']" mat-menu-item>
+        <a class="unstyled">Home</a>
+      </button>
+      <button [routerLink]="['/gallery']" mat-menu-item>
+        <a class="unstyled">Gallery</a>
+      </button>
+      <button [routerLink]="['/contact']" mat-menu-item>
+        <a class="unstyled">Contact Us</a>
+      </button>
     </mat-menu>
-
-    <div class="dropdown">
-      <div class="dropdownBar"></div>
-      <div class="dropdownBar"></div>
-      <div class="dropdownBar"></div>
-    </div>
   </div>
-
-  <div class="cdk-virtual-scroll-data-source-example">
-    <cdk-virtual-scroll-viewport
-      orientation="horizontal"
-      itemSize="50"
-      class="example-viewport"
-    >
-      <div *cdkVirtualFor="let item of items" class="example-item">
-        {{ item }}
-      </div>
-    </cdk-virtual-scroll-viewport>
-  </div>
-  <!-- <div class="content">
-    <div class="sideScroll">
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-      <div class="picture"></div>
-    </div>
-  </div> -->
+  <router-outlet></router-outlet>
+  <div id="appBackground"></div>
 </div>
-
-<router-outlet></router-outlet>

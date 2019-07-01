@@ -1,0 +1,23 @@
+#contactWrapper {
+  margin-top: 220px;
+  color: white;
+  //   margin-left: 100px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#about {
+  color: white;
+  width: 40vw;
+  min-width: 300px;
+  margin: 0 20px 20px 20px;
+  //   text-align: center;
+}
+#aboutIntro {
+  width: 40vw;
+  height: 150px;
+  background-color: gray;
+  min-width: 300px;
+  margin: 0 20px 0 20px;
+}
