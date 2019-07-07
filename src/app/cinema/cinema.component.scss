@@ -228,3 +228,8 @@
   cursor: default;
   background: none;
 }
+@media (max-width: 700px) {
+  .buttons {
+    margin-left: 0;
+  }
+}

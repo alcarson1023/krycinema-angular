@@ -1,4 +1,20 @@
 .renderedPage {
   height: 50vh;
-  // background-color: gray;
+}
+
+#scrollLeft {
+  float: left;
+}
+#scrollRight {
+  float: right;
+  right: 0px;
+}
+.scrollButton {
+  height: 90px;
+  padding: 205px 30px 205px 30px;
+  background-color: rgba(82, 82, 82, 0.4);
+  position: absolute;
+  font-size: 80px;
+  font-weight: bolder;
+  color: white;
 }

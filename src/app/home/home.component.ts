@@ -9,4 +9,8 @@ export class HomeComponent implements OnInit {
   constructor() {}
 
   ngOnInit() {}
+
+  myFunc() {
+    alert("At least you're not a total dumbass!");
+  }
 }
